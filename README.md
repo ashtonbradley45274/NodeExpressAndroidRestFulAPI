@@ -3,13 +3,13 @@ Customer Service API
 
 ## Starting the customer API
 ```sh
-$ docker compose up -d  #The Mysql instance is powered by docker
+$ docker-compose up -d  #The Mysql instance is powered by docker
 $ npm install  #Installs all npm packages
 $ node index.js #run application
 ```
 ## Stop Docker 
 ```sh
-$ docker compose down
+$ docker-compose down
 ```
 
 ## How to Stop unscaled RestFul API
